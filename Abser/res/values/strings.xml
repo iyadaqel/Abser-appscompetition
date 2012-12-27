@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Abser</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="record_message">سجل سؤالك صوتيا</string>
+    <string name="preview_message">Preview Sound Message</string>
+    <string name="share">أرسل التغريدة</string>
+    <string name="stop_upload">أوقف وارفع التسجيل</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infiniteloop.abser"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+	<uses-permission android:name="android.permission.USE_CREDENTIALS"/> 
+
+<!--     <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" > -->
+	<application android:name=".AbserApp"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/ic_launcher" >
+        <activity
+            android:name="com.infiniteloop.abser.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.infiniteloop.abser.ImageCaptureActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity
+            android:name="com.infiniteloop.abser.RecordMessageActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.infiniteloop.abser.RecordingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.infiniteloop.abser.ShareActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.infiniteloop.abser.FinalActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>
